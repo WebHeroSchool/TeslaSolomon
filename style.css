@@ -1,3 +1,22 @@
-.wrapper {
-    
+* {
+    border: dashed red 1px;
+}
+
+.header {
+    width: 93%;
+    margin: auto;
+    padding: 24px 0 58px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+
+
+
+.section__button-img:hover path {
+    fill: red;
 }
