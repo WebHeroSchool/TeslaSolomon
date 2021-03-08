@@ -32,35 +32,110 @@
                 </nav>
         </header>
         <main class="main">
-            <section class="section"></section>
             <section class="section">
                 <h1 class="main__title">Model S</h1>
-                <p class="main__description">Добро пожаловать в будущее!</p>
-                <img src="img/2.svg" alt="2">
-                <img src="img/3.svg" alt="3"> <!-- Это скорее всего надо переделать на БГ -->
+                <p class="section__description">Добро пожаловать в будущее!</p>
+                <img class="section__img" src="img/2.svg" alt="2">
+                <img class="section__img" src="img/3.svg" alt="3"> <!-- Это скорее всего надо переделать на БГ -->
                 <div class="options">
                     <div class="options__speed">
-                        <img src="img/4.svg" alt="4"> <!--сюда надо добавить БГ ЭЛИПС-->
+                        <img class="options__img" src="img/4.svg" alt="4"> <!--сюда надо добавить БГ ЭЛИПС-->
                         <h1 class="options__numbers">2,7</h1>
                         <h2 class="options__details">сек</h2>
                         <p class="options__add">0-100 км/час</p>
                     </div>
                     <div class="options__km">
-                        <img src="img/5.svg" alt="5">
+                        <img class="options__img" src="img/5.svg" alt="5">
                         <h1 class="options__numbers">632</h1>
                         <h2 class="options__details">км</h2>
                         <p class="options__add">запас хода</p>
                     </div>
                 </div>
-                <div class="section__button">
+                <div class="main__button">
                     <div class="button__test-drive">
-                        <img src="img/7.svg" alt="7">
-                        <a class="" href="#">Тест драйв</a>
+                        <img class="section__button-img" src="img/7.svg" alt="7">
+                        <a class="section__button section__button_color_dark" href="#">Тест драйв</a>
                     </div>
-                    <a class="button__buy" href="#">Заказать</a>
+                    <a class="section__button section__button_color_red" href="#">Заказать</a> <!--#e51937 цвет кнопки-->
                 </div>
             </section>
-            <section class="section"></section>
+            <section class="section">
+                <div class="section__left">
+                    <h1 class="main__title">Model S</h1>
+                    <img src="img/8.svg" alt="8">
+                </div>
+                <div class="section__right">
+                    <h1 class="section__title">Будущее вождения</h1>
+                    <p class="section__description">Модель S обладает лучшей в своем классе вместимостью:
+                        в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным
+                        экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией
+                        звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+                    <div class="options">
+                        <div class="options__screen-size">
+                            <img class="options__img" src="img/9.svg" alt="9">
+                            <h1 class="options__numbers">17</h1>
+                            <h2 class="options__details">дюймов</h2>
+                            <p class="options__add">Большой дисплей</p>
+                        </div>
+                        <div class="options__upgrade">
+                            <img class="options__img" src="img/10.svg" alt="10">
+                            <h2 class="options__details">Беспроводное обновление ПО</h2>
+                            <p class="options__add">Повышенная функциональность</p>
+                        </div>
+                        <div class="options__bag">
+                            <img class="options__img" src="img/11.svg" alt="11">
+                            <h1 class="options__numbers">894 </h1>
+                            <h2 class="options__details">литра</h2>
+                            <p class="options__add">Объем грузового пространства</p>
+                        </div>
+                        <div class="main__button">
+                            <div class="button__more">
+                                <img class="section__button-img" src="img/12.svg" alt="12">
+                                <a class="section__button section__button_color_white" href="#">Узнать больше</a> <!--заглавными сделать тут-->
+                            </div>
+                            <a class="section__button section__button_color_white-border" href="#">Заказать</a> <!--#e51937 цвет кнопки-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__left">
+                    <h1 class="main__title main__title_opacity">Model S</h1>
+                    <img src="img/13.svg" alt="13">
+                </div>
+                <div class="section__right">
+                    <h1 class="section__title">Самый безопасный автомобиль в мире</h1>
+                    <p class="section__description">Модель S достигла наивысшей оценки безопасности любого автомобиля,
+                        когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров -
+                        от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+                    <h1 class="section__title">Оценка защиты:</h1> <!--Через БГ сделать звезды/Дублировать картинки со звездами-->
+                    <p class="section__mark">Спереди</p>
+                    <img src="img/14.svg" alt="14">
+                    <p class="section__mark">Сбоку</p>
+                    <img src="img/14.svg" alt="14">
+                    <div class="section__mark-group">
+                        <p class="section__mark">Сбоку</p>
+                        <p class="section__mark section__mark_small-opacity">(стойка)</p>
+                    </div>
+                    <img src="img/14.svg" alt="14">
+                    <p class="section__mark">Водитель</p>
+                    <img src="img/14.svg" alt="14">
+                    <p class="section__mark">Пассажир</p>
+                    <img src="img/14.svg" alt="14">
+                    <div class="section__mark-total">
+                        <img class="mark-total__img" src="img/15.svg" alt="15">
+                        <h1 class="mark-total__numbers">5 звезд</h1>
+                        <h2 class="mark-total__details">безопасности</h2>
+                    </div>
+                    <div class="main__button">
+                        <div class="button__more">
+                            <img class="section__button-img" src="img/12.svg" alt="12">
+                            <a class="section__button section__button_color_white" href="#">Узнать больше</a> <!--заглавными сделать тут-->
+                        </div>
+                        <a class="section__button section__button_color_white-border" href="#">Заказать</a> <!--#e51937 цвет кнопки-->
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 </body>
