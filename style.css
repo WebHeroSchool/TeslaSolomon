@@ -8,7 +8,7 @@
 
 .header {
     width: 93%;
-    margin: 0 0 0 39px;
+    margin: 0 0 74px 39px;
     padding: 21px 0 0 0;
     display: flex;
     justify-content: space-between;
@@ -99,7 +99,7 @@
 .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center; /* центрируем содержимое кнопки */
-    position: fixed;
+    position: absolute;
     top: 42px;
     right: 60px;
     width: 21px;
@@ -131,24 +131,6 @@
     top: 8px;
 }
 
-/* контейнер меню */
-.nav__left .nav__right {
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
-}
-
 #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
 }
@@ -163,20 +145,9 @@
     transform: rotate(90deg);
 }
 
-#menu__toggle:checked ~ .menu {
-    visibility: visible;
-    right: 0;
-    opacity: 1;
-    transition: opacity .5s ease-out;
-}
-
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
-    transition-duration: .25s;
-}
-
-.menu {
     transition-duration: .25s;
 }
 
@@ -184,10 +155,48 @@
     transition-duration: .25s;
 }
 
+/*//////////////Section////////////////*/
+
+.main {
+
+}
+.section-1 {
+    width: 93%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 
+}
+
+.main__title {
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 89px;
+    line-height: 84px;
+    margin: 0;
+    padding-left: 103px;
+}
+
+.section__description {
+    font-family: Montserrat-Medium,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    padding: 4px 0 0 102px;
+}
+
+.section__background {
+    background: url("img/tesla.svg") no-repeat;
+    width: 1338px;
+    height: 359px;
+    position: absolute;
+}
 
 
+.main__img {
+    padding: 27px 0 0 26px;
+    margin: 0;
+}
 
 
 
