@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+.wrapper {
+
+}
+
 .header {
     width: 93%;
     margin: 0 0 74px 39px;
@@ -165,7 +169,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    margin-bottom: 99px;
 
 }
 
@@ -195,14 +200,127 @@
 
 .main__img {
     padding: 27px 0 0 26px;
-    margin: 0;
+    margin: 0 0 38px 0;
 }
 
+.options__numbers {
+    font-size: 34px;
+}
 
+.options__numbers_speed {
+    display: flex;
+    position: absolute;
+    top: 728px;
+    left: 381px;
+    overflow: auto;
+}
 
+.options__details {
+    font-size: 19px;
+}
 
-/*////////////////////////////*/
+.options__details_speed {
+    display: flex;
+    position: absolute;
+    top: 755px;
+    left: 439px;
+    overflow: auto;
+}
+
+.options__add {
+    font-family: Montserrat-Regular,Arial,sans-serif;
+    font-size: 12px;
+}
+
+.options__add_speed {
+    display: flex;
+    position: absolute;
+    top: 785px;
+    left: 381px;
+    overflow: auto;
+}
+
+.options__img_speed {
+    display: flex;
+    position: absolute;
+    top: 767px;
+    left: 321px;
+    width: 47px;
+    overflow: auto;
+}
+
+.options__numbers_km {
+    display: flex;
+    position: absolute;
+    top: 727px;
+    left: 598px;
+    overflow: auto;
+}
+
+.options__details_km {
+    display: flex;
+    position: absolute;
+    top: 755px;
+    left: 668px;
+    overflow: auto;
+}
+
+.options__add_km {
+    display: flex;
+    position: absolute;
+    top: 785px;
+    left: 597px;
+    overflow: auto;
+}
+
+.options__img_km {
+    background: url("img/roadIconBold.svg") no-repeat;
+    width: 43px;
+    height: 67px;
+    position: absolute;
+    top: 763px;
+    left: 551px;
+    overflow: auto;
+
+}
+
+.section__button-img {
+    padding: 8px 0 0 286px;
+
+}
+
+.section__button {
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.section__button_color_dark {
+    color: #000000;
+    position: absolute;
+    top: 775px;
+    left: 830px;
+    overflow: auto;
+}
+
+.section__button_color_dark:hover {
+    color: #E51937;
+}
+
 .section__button-img:hover path {
     fill: red;
 }
 
+.section__button_color_red {
+    color: #E51937;
+    position: absolute;
+    top: 765px;
+    left: 960px;
+    overflow: auto;
+    padding: 9px 42px 9px 42px;
+    border: double 2px #E51937;
+}
+
+.button__test-drive {
+    display: flow-root;
+}
