@@ -89,6 +89,110 @@
 }
 
 
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center; /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 42px;
+    right: 60px;
+    width: 21px;
+    height: 13px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #E51937;
+    border-radius: 0 0 100px 100px
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+/* контейнер меню */
+.nav__left .nav__right {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu {
+    visibility: visible;
+    right: 0;
+    opacity: 1;
+    transition: opacity .5s ease-out;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    transition-duration: .25s;
+}
+
+.menu {
+    transition-duration: .25s;
+}
+
+.menu__item {
+    transition-duration: .25s;
+}
+
+
+
+
+
+
+
+
+
+/*////////////////////////////*/
 .section__button-img:hover path {
     fill: red;
 }
