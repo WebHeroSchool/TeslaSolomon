@@ -1,6 +1,4 @@
-/* {
-    border: dashed red 1px;
-}*/
+
 
 .body {
     margin: 0;
@@ -8,15 +6,15 @@
 
 .header {
     width: 93%;
-    margin: 0 0 74px 39px;
-    padding: 21px 0 0 0;
+    margin: 0 0 64px 39px;
+    padding: 25px 0 0 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    margin-right: 36px;
+    margin-right: 35px;
 }
 
 .menu__item {
@@ -26,7 +24,7 @@
     color: #000000;
     font-weight: 600;
     font-style: normal;
-    margin-right:38px;
+    margin-right: 40px;
     transition: color .3s ease-in-out;
     position: relative;
 }
@@ -37,7 +35,7 @@
 
 .menu__item_active {
     color: #E51937;
-    margin-right: 57px;
+    margin-right: 64px;
 }
 
 .menu__item_2 {
@@ -45,7 +43,7 @@
 }
 
 .menu__item_right {
-    margin-right: 23px;
+    margin-right: 30px;
 }
 
 .menu__item:hover {
@@ -98,9 +96,9 @@
 /* стилизуем кнопку */
 .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
-    align-items: center; /* центрируем содержимое кнопки */
+    align-items: center; /*центрируем содержимое кнопки*/
     position: absolute;
-    top: 42px;
+    top: 43px;
     right: 60px;
     width: 21px;
     height: 13px;
@@ -161,12 +159,16 @@
 
 }
 .section-1 {
-    width: 93%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: url("img/tesla.svg") no-repeat;
+}
 
-
+.section__redCar{
+    background: url("img/redCar.svg") no-repeat;
+    width: 72%;
+    height: 446px;
 }
 
 .main__title {
@@ -174,22 +176,15 @@
     font-size: 89px;
     line-height: 84px;
     margin: 0;
-    padding-left: 103px;
+    padding: 6px 0 0 0;
 }
 
 .section__description {
     font-family: Montserrat-Medium,Arial,sans-serif;
     font-size: 15px;
     line-height: 18px;
-    margin: 0;
-    padding: 4px 0 0 102px;
-}
-
-.section__background {
-    background: url("img/tesla.svg") no-repeat;
-    width: 1338px;
-    height: 359px;
-    position: absolute;
+    margin: 0 0 28px 0;
+    padding: 4px 0 0 0;
 }
 
 
@@ -198,11 +193,132 @@
     margin: 0;
 }
 
+/*********panel*********/
 
-
-
-/*////////////////////////////*/
-.section__button-img:hover path {
-    fill: red;
+.panel {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0 0 0;
 }
+
+.left-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-right: 0;
+    padding-left: 161px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 56px;
+}
+
+.box__img {
+    display: flex;
+    background: url("img/Speed.svg") no-repeat;
+    background-position-x: 78px;
+    background-position-y: 10px;
+    background-size: 47px;
+    width: 137px;
+    height: 65px;
+}
+
+.box__img-2 {
+    background: url("img/roadIconBold.svg") no-repeat;
+    background-position-x: 28px;
+    background-position-y: 10px;
+    width: 76px;
+    height: 65px;
+}
+
+.box__content {
+    margin: 0;
+}
+
+.box__text {
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 35px;
+    color: #000000;
+    margin: 0;
+}
+
+.box__text_middle {
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding: 0 0 0 7px;
+    margin: 0;
+}
+
+.box__text-additional {
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+
+.right-buttons {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button__img {
+    margin-right: 7px;
+}
+
+.button__text {
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__text_color_black {
+    margin-right: 40px;
+}
+
+.button__text_color_red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E51937;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #E51937;
+}
+
+.button__img:hover path {
+    fill: #E51937;
+}
+
+.box__text_color_black:hover {
+    color: #E51937;
+}
+
+.button__text_color_red:hover {
+    background-color: #E51937;
+    color: #ffffff;
+    border: #ffffff;
+}
+/*********panel*********/
+
 
