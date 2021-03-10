@@ -304,6 +304,7 @@
     width: 160px;
     height: 40px;
     border: 2px solid #E51937;
+    transition: background-color, border-spacing, color .7s;
 }
 
 .button__img:hover path {
