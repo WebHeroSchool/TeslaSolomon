@@ -153,7 +153,7 @@
     transition-duration: .25s;
 }
 
-/*//////////////Section////////////////*/
+/*//////////////Section 1////////////////*/
 
 .main {
 
@@ -163,6 +163,7 @@
     align-items: center;
     flex-direction: column;
     background: url("img/tesla.svg") no-repeat;
+    margin-bottom: 24px;
 }
 
 .section__redCar{
@@ -197,7 +198,7 @@
 
 .panel {
     display: flex;
-    margin: 0 auto;
+    margin: 0 0 10px 0;
     width: 90%;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +225,7 @@
     display: flex;
     background: url("img/Speed.svg") no-repeat;
     background-position-x: 78px;
-    background-position-y: 10px;
+    background-position-y: 14px;
     background-size: 47px;
     width: 137px;
     height: 65px;
@@ -253,7 +254,7 @@
     font-family: Montserrat-Bold,Arial,sans-serif;
     font-size: 20px;
     color: #000000;
-    padding: 0 0 0 7px;
+    padding: 0 0 0 10px;
     margin: 0;
 }
 
@@ -321,5 +322,169 @@
     border: #ffffff;
 }
 /*********panel*********/
+/*********arrow-down*********/
+.arrow-down {
+    border: solid #E51937;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 9px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+/*********arrow-down*********/
+/*********section*********/
 
+.section {
+    display: flex;
+    height: 900px;
+}
+
+.section__left {
+    width: 70%;
+    display: flex;
+}
+
+.section__left-1 {
+    background: url("img/torped.svg") no-repeat;
+    background-size: 1268px;
+    background-position-y: 59px;
+}
+
+.main__title-2 {
+    font-size: 70px;
+    color: #E51937;
+    padding: 65px 79px;
+    margin: 0;
+}
+
+
+.section__right {
+    width: 30%;
+    padding-left: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.section__right-1 {
+    background-color: #E51937;
+}
+
+.top-content {
+    width: 81%;
+    font-family: Montserrat-SemiBold,Arial,sans-serif;
+    color: #FFFFFF;
+}
+
+.top-content__title {
+    font-size: 30px;
+    padding-top: 51px;
+    margin: 0;
+}
+
+.top-content__description {
+    font-family: Montserrat-Light,Arial,sans-serif;
+    font-size: 15px;
+    width: 90%;
+    margin: 0;
+    padding: 13px 0 0 0;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 81%;
+    height: 338px;
+    padding: 0 0 174px 0;
+    justify-content: space-evenly;
+}
+
+.box-1 {
+    margin-bottom: 11px;
+}
+
+.box-2 {
+    width: 245px;
+}
+
+.box-3 {
+    width: 225px;
+    margin: 0;
+}
+
+.box__text_color_white {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.box__text_middle_color_white {
+    color: #ffffff;
+    font-family: Montserrat-Medium,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.box__text-additional_color_white {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.box__text-additional_color_white_middle {
+    padding-left: 10px;
+}
+
+.box__img-3 {
+    background: url("img/9.svg") no-repeat;
+    background-position-y: 14px;
+    width: 55px;
+    height: 65px;
+}
+
+.box__img-4 {
+    background: url("img/10.svg") no-repeat;
+    width: 92px;
+    height: 40px;
+}
+
+.box__img-5 {
+    background: url("img/11.svg")no-repeat;
+    background-position-y: 11px;
+    width: 74px;
+    height: 70px;
+}
+
+/*.box__img-3 {
+    position: absolute;
+    width: 36px;
+    height: 53px;
+    left: 1052px;
+    top: 1271px;
+}
+
+.box__img-4 {
+    position: absolute;
+    width: 44px;
+    height: 34px;
+    left: 1048px;
+    top: 1376px;
+}
+
+.box__img-5 {
+    position: absolute;
+    width: 36px;
+    height: 52px;
+    left: 1052px;
+    top: 1468px;
+}*/
+/*////////////////Вывода аа а а////////////////*/
+/*********section*********/
 
