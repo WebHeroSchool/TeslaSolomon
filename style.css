@@ -516,13 +516,11 @@
     stroke:#E51937;
     border-radius: 50%;
 }
+
 /*********section*********/
 
 /*********section - 3 *********/
 
-.section-3 {
-    flex-direction: row-reverse;
-}
 
 .section__right-1-2 {
     margin: 0 -8px 0 0;
@@ -612,5 +610,17 @@
     padding: 0 0 23px 0;
 }
 
+.section__left-img {
+    width: 1049px;
+    height: 591px;
+    margin: 172px 0 0 -89px;
+}
+
+.section__left_down {
+    background: url("img/Model S.svg") no-repeat;
+    background-size: 796px;
+    background-position-x: 212px;
+    background-position-y: 143px;
+}
 
 /*********section*********/
