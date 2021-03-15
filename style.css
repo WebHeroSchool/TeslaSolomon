@@ -659,6 +659,7 @@
         background-position-x: -12px;
         background-position-y: 91px;
         margin-bottom: 24px;
+
     }
 
     .section__redCar {
@@ -770,6 +771,7 @@
 
     .section {
         flex-direction: column;
+        margin-bottom: 132px;
     }
 
     .main__title-2 {
@@ -783,9 +785,320 @@
         padding: 0;
         flex-direction: initial;
         align-items: inherit;
+        height: 487px;
     }
 
+    .box__text_color_white{
+        font-size: 35px;
+        line-height: 43px;
+    }
 
+    .box__text_middle_color_white{
+        line-height: 19px;
+    }
 
+    .box__text-ipad_middle_color_white{
+        font-size: 34px;
+        line-height: 41px;
+        padding: 8px 0 0 0;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        width: 39%;
+        height: 272px;
+        padding: 42px 4px 0 0;
+        justify-content: space-around;
+    }
+
+    .box {
+        padding: 0 0 7px 68px;
+    }
+
+    .box-1 {
+        margin-bottom: 0;
+    }
+
+    .down-buttons {
+        padding: 293px 155px 0 0;
+        margin: 56px 0 0 -533px;
+        width: 517px;
+    }
+
+    .top-content {
+        padding: 3px 0 0 35px;
+    }
+
+    .top-content__description {
+        padding: 23px 0 0 0;
+    }
+
+    .box__img-3 {
+        background-position-y: 20px;
+        height: 74px;
+    }
+
+    .box__img-4 {
+        background-position-x: -2px;
+        background-position-y: 4px;
+    }
+
+    .box__img-5 {
+        background-position-y: 16px;
+    }
+
+    .button__i {
+        width: 185px;
+        margin-right: 45px;
+    }
+
+    .button__text_color_white {
+        padding: 5px 28px;
+    }
+
+    .button__text-i {
+        padding: 3px 9px 0 0;
+    }
+
+    .button__text-i-i{
+        width: 32px;
+        height: 32px;
+    }
+
+    .section-3 {
+        flex-direction: column-reverse;
+        height: 1025px;
+    }
+
+    .section__left_down {
+        background-size: 592px;
+        background-position-x: 96px;
+        background-position-y: -6px;
+        width: 712px;
+    }
+
+    .section__left-img {
+        width: 749px;
+        height: 426px;
+        margin: 0 0 36px -15px;
+    }
+
+    .box-6 {
+        display: none;
+    }
+
+    .down-buttons-ipad{
+        padding: 293px 155px 0 0;
+        margin: 46px 0 0 -559px;
+    }
+
+    .marks-ipad{
+        padding: 66px 0 0 32px;
+    }
+
+    .top-content__description-ipad{
+        padding: 13px 0 0 0;
+    }
+
+    .section-3-ipad {
+        padding: 0;
+    }
+
+    .top-content__title-ipad{
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        width: 140px;
+        height: 42px;
+        padding: 4px 0 0 1px;
+    }
+
+    .menu__btn {
+        right: 76px;
+        width: 24px;
+        left: 330px;
+        left: calc(88%);
+        top: 20px;
+        height: 11px;
+    }
+
+    .main__title {
+        font-size: 50px;
+        line-height: 61px;
+        padding: 30px 0 0 0;
+    }
+
+    .section__description {
+        font-size: 10px;
+        line-height: 8px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section__redCar {
+        background-size: 357px;
+        background-position-x: 9px;
+        background-position-y: 51px;
+        height: 249px;
+    }
+
+    .section-1 {
+        background-size: 426px;
+        background-position-x: -19px;
+        background-position-y: 110px;
+    }
+
+    .box__text {
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .box__text-additional {
+        font-size: 10px;
+    }
+
+    .box {
+        padding: 0 0 0 4px;
+    }
+
+    .panel {
+        padding: 0 181px 0 0;
+        margin: 0;
+    }
+
+    .box__img {
+        background-position-x: 109px;
+        background-position-y: 16px;
+        background-size: 39px;
+    }
+
+    .box__img-2 {
+        background-position-x: 39px;
+        background-position-y: 32px;
+        background-size: 26px;
+    }
+
+    .box__text_middle {
+        font-size: 15px;
+    }
+
+    .box__text {
+        line-height: 24px;
+    }
+
+    .left-container {
+        margin: -11px 0 0 55px;
+        padding-left: 4px;
+    }
+
+    .right-buttons {
+        margin: 37px 0 0 102px;
+    }
+
+    .button__text {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .button__img {
+        width: 34px;
+        height: 22px;
+    }
+
+    .button__text_color_red {
+        width: 160px;
+        height: 40px;
+    }
+
+    .box__text_color_black{
+        width: 91px;
+        margin-right: 24px;
+    }
+
+    .button__img {
+        margin-right: 0;
+    }
+
+    .arrow-down {
+        margin: 23px 0 0 2px;
+    }
+
+    .main__title-2 {
+        display: none;
+    }
+    .section__left-1 {
+        background-size: 525px;
+        background-position-y: -25px;
+        background-position-x: -63px;
+    }
+
+    .section__left-1 {
+        height: 303px;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .top-content {
+        padding: 3px 0 0 26px;
+    }
+
+    .top-content__title {
+        padding-top: 15px;
+        width: 323px;
+    }
+
+    .top-content__description {
+        width: 314px;
+        padding: 11px 0 0 1px;
+    }
+
+    .top-content {
+        padding: 3px 0 0 27px;
+    }
+
+    .down-buttons {
+        display: none;
+    }
+
+    .section__right {
+        height: 304px;
+    }
+
+    .section-2 {
+        height: 47px;
+    }
+
+    .section__left-img {
+        width: 361px;
+        height: 204px;
+        margin: 17px 0 0 -2px;
+    }
+
+    .section__left_down {
+        background-size: 399px;
+        background-position-x: 0;
+        background-position-y: 7px;
+        height: 253px;
+    }
+
+    .marks{
+        display: none;
+    }
+
+    .top-content-section-3-mobile {
+        padding: 5px 0 0 31px;
+    }
 
 }
