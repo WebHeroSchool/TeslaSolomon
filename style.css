@@ -683,7 +683,7 @@
         align-items: center;
         width: 100%;
         margin: -11px 0 0 65px;
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     .box {
@@ -758,7 +758,7 @@
     }
 
     .section__left-1 {
-        background: url(img/torpedIpad.svg) no-repeat;
+        background: url("img/torpedIpad.svg") no-repeat;
         background-size: 767px;
         background-position-y: 45px;
         background-position-x: 1px;
