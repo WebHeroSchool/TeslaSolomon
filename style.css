@@ -643,7 +643,7 @@
 
     .body {
         margin: 0;
-        max-width: 768px;
+        width: 768px;
     }
 
     .header {
@@ -921,7 +921,7 @@
 
     .body {
         margin: 0;
-        max-width: 376px;
+        width: 376px;
     }
 
     .header {
