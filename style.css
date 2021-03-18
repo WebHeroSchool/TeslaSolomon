@@ -1,0 +1,349 @@
+
+
+.body {
+    margin: 0;
+    max-width: 1440px;
+}
+
+.header {
+    width: 93%;
+    margin: 0 0 64px 39px;
+    padding: 25px 0 0 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin-right: 35px;
+}
+
+.nav__left {
+    padding: 0 121px 0 0;
+}
+
+.nav__right {
+    padding: 0 55px 0 0;
+}
+
+.menu__item {
+    text-decoration: none;
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: 40px;
+    transition: color .3s ease-in-out;
+    position: relative;
+    display: inline-block;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__item_active {
+    color: #E51937;
+    margin-right: 64px;
+}
+
+.menu__item_2 {
+    margin-right: 18px;
+}
+
+.menu__item_right {
+    margin-right: 27px;
+}
+
+.menu__item:hover {
+    color: #E51937;
+}
+
+.menu__item_active::after {
+    position: absolute;
+    display: block;
+    content: '';
+    left: 0;
+    width: 100%;
+    bottom: -6px;
+    height: 2px;
+    background: #E51937;
+    transition: opacity .5s, width .5s;
+    border-radius: 0 0 100px 100px
+}
+
+.menu__item:before, .menu__item:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease-in-out;
+    left: 0;
+}
+
+.menu__item:before {
+    content: '';
+    position: absolute;
+    background: #E51937;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    transform: scaleX(0);
+    border-radius: 0 0 100px 100px
+}
+
+.menu__item:not(.menu__item_active):hover:before {
+    transform: scaleX(1);
+    border-radius: 0 0 100px 100px
+}
+
+
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center; /*центрируем содержимое кнопки*/
+    position: absolute;
+    top: 43px;
+    right: 60px;
+    width: 27px;
+    height: 13px;
+    cursor: pointer;
+    z-index: 1;
+    left: calc(94%);
+}
+
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #E51937;
+    border-radius: 0 0 100px 100px
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    transition-duration: .25s;
+}
+
+.menu__item {
+    transition-duration: .25s;
+}
+
+/*//////////////Section 1////////////////*/
+
+.main {
+
+}
+.section-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("img/tesla.svg") no-repeat;
+    margin-bottom: 24px;
+}
+
+.section__redCar{
+    background: url("img/redCar.svg") no-repeat;
+    width: 100%;
+    height: 446px;
+    background-position-x: 42%;
+}
+
+.main__title {
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 89px;
+    line-height: 84px;
+    margin: 0;
+    padding: 6px 0 0 0;
+}
+
+.section__description {
+    font-family: Montserrat-Medium,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0 0 28px 0;
+    padding: 4px 0 0 0;
+}
+
+
+.main__img {
+    padding: 27px 0 0 26px;
+    margin: 0;
+}
+
+/*********panel*********/
+
+.panel {
+    display: flex;
+    margin: 0 0 10px 0;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0 0 0;
+}
+
+.left-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-right: 0;
+    padding-left: 161px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 56px;
+}
+
+.box__img {
+    display: flex;
+    background: url("img/Speed.svg") no-repeat;
+    background-position-x: 78px;
+    background-position-y: 14px;
+    background-size: 47px;
+    width: 137px;
+    height: 65px;
+}
+
+.box__img-2 {
+    background: url("img/roadIconBold.svg") no-repeat;
+    background-position-x: 28px;
+    background-position-y: 10px;
+    width: 76px;
+    height: 65px;
+}
+
+.box__content {
+    margin: 0;
+}
+
+.box__text {
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 35px;
+    color: #000;
+    margin: 0;
+}
+
+.box__text_middle {
+    font-family: Montserrat-Bold,Arial,sans-serif;
+    font-size: 20px;
+    color: #000;
+    padding: 0 0 0 6px;
+    margin: 0;
+}
+
+.box__text-additional {
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+
+.right-buttons {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button__img {
+    margin-right: 7px;
+}
+
+.button__text {
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__text_color_black {
+    margin-right: 40px;
+}
+
+.button__text_color_red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E51937;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #E51937;
+    transition: background-color, border-spacing, color .7s;
+}
+
+.button__img:hover path {
+    fill: #E51937;
+}
+
+.box__text_color_black:hover {
+    color: #E51937;
+}
+
+.button__text_color_red:hover {
+    background-color: #E51937;
+    color: #fff;
+    border: #fff;
+}
+/*********panel*********/
+/*********arrow-down*********/
+.arrow-down {
+    border: solid #E51937;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 9px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+/*********arrow-down*********/
