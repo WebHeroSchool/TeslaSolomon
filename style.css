@@ -641,6 +641,11 @@
 
 @media (max-width: 768px) {
 
+    .body {
+        margin: 0;
+        max-width: 768px;
+    }
+
     .header {
         margin: 0 0 86px 11px;
     }
@@ -913,6 +918,11 @@
 }
 
 @media (max-width: 376px) {
+
+    .body {
+        margin: 0;
+        max-width: 376px;
+    }
 
     .header {
         margin: 0;
