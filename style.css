@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
@@ -36,6 +37,9 @@
     margin-right: 40px;
     transition: color .3s ease-in-out;
     position: relative;
+    display: inline-block;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 
 .menu__item:last-child{
