@@ -640,13 +640,14 @@
 }
 
 /*********section*********/
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 /*Адаптация под экраны*/
 
 @media (max-width: 768px) {
+
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
 
     .body {
         margin: 0;
@@ -926,6 +927,11 @@
 
 @media (max-width: 376px) {
 
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
     .body {
         margin: 0;
         width: 376px;
@@ -991,8 +997,10 @@
     }
 
     .panel {
-        padding: 0 181px 0 0;
-        margin: 0;
+        padding: 0;
+        margin: 0 0 0 -175px;
+        display: block;
+        width: 92%;
     }
 
     .box__img {
@@ -1016,7 +1024,7 @@
     }
 
     .left-container {
-        margin: -11px 0 0 55px;
+        margin: -11px 0 0 22px;
         padding-left: 4px;
     }
 
@@ -1079,6 +1087,7 @@
     }
 
     .top-content__description {
+        font-family: Montserrat-Medium,Arial,sans-serif;
         width: 314px;
         padding: 11px 0 0 1px;
     }
