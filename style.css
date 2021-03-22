@@ -38,7 +38,6 @@
     transition: color .3s ease-in-out;
     position: relative;
     display: inline-block;
-    overflow-x: scroll;
     white-space: nowrap;
 }
 
@@ -641,7 +640,10 @@
 }
 
 /*********section*********/
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 /*Адаптация под экраны*/
 
 @media (max-width: 768px) {
