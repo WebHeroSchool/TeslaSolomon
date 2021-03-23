@@ -169,7 +169,7 @@
 .main {
 
 }
-.section-1 {
+.section-one {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -243,7 +243,7 @@
     height: 65px;
 }
 
-.box__img-2 {
+.box__img-two {
     background: url("img/roadIconBold.svg") no-repeat;
     background-position-x: 28px;
     background-position-y: 10px;
@@ -357,13 +357,13 @@
     display: flex;
 }
 
-.section__left-1 {
+.section__left-one {
     background: url("img/torped.svg") no-repeat;
     background-size: 1268px;
     background-position-y: 59px;
 }
 
-.main__title-2 {
+.main__title-two {
     font-size: 70px;
     color: #E51937;
     padding: 65px 79px;
@@ -381,7 +381,7 @@
 
 }
 
-.section__right-1 {
+.section__right-one {
     background-color: #E51937;
 }
 
@@ -416,15 +416,15 @@
     justify-content: space-evenly;
 }
 
-.box-1 {
+.box-one {
     margin-bottom: 11px;
 }
 
-.box-2 {
+.box-two {
     width: 245px;
 }
 
-.box-3 {
+.box-three {
     width: 225px;
     margin: 0;
 }
@@ -456,20 +456,20 @@
     padding-left: 10px;
 }
 
-.box__img-3 {
+.box__img-three {
     background: url("img/9.svg") no-repeat;
     background-position-y: 14px;
     width: 55px;
     height: 65px;
 }
 
-.box__img-4 {
+.box__img-four {
     background: url("img/10.svg") no-repeat;
     width: 92px;
     height: 40px;
 }
 
-.box__img-5 {
+.box__img-five {
     background: url("img/11.svg")no-repeat;
     background-position-y: 11px;
     width: 74px;
@@ -536,11 +536,11 @@
 /*********section - 3 *********/
 
 
-.section__right-1-2 {
+.section__right-one-two {
     margin: 0 -8px 0 0;
 }
 
-.top-content-section-3 {
+.top-content-section-three {
     padding: 0 0 0 11px;
 }
 
@@ -592,7 +592,7 @@
     height: 24px;
 }
 
-.box__img-6 {
+.box__img-six {
     background: url("img/security.svg") no-repeat;
     background-size: 62px;
     width: 140px;
@@ -615,11 +615,11 @@
     font-size: 25px;
 }
 
-.box-6 {
+.box-six {
     width: 350px;
 }
 
-.down-buttons-2 {
+.down-buttons-two {
     margin: 0 22px 0 0;
     padding: 0 0 23px 0;
 }
@@ -667,7 +667,7 @@
         left: calc(91%);
     }
 
-    .section-1 {
+    .section-one {
         background-size: 835px;
         background-position-x: -12px;
         background-position-y: 91px;
@@ -727,7 +727,7 @@
         height: 65px;
     }
 
-    .box__img-2 {
+    .box__img-two {
         background: url("img/Road icon Thin.svg") no-repeat;
         background-position-x: 17px;
         background-position-y: 26px;
@@ -770,7 +770,7 @@
         margin: 39px 0 0 0;
     }
 
-    .section__left-1 {
+    .section__left-one {
         background: url("img/TorpedIpad.svg") no-repeat;
         background-size: 767px;
         background-position-y: 45px;
@@ -787,7 +787,7 @@
         margin-bottom: 132px;
     }
 
-    .main__title-2 {
+    .main__title-two {
         font-size: 69px;
         padding: 53px 0 0 0;
         margin: 0 46px 0 0;
@@ -829,7 +829,7 @@
         padding: 0 0 7px 68px;
     }
 
-    .box-1 {
+    .box-one {
         margin-bottom: 0;
     }
 
@@ -847,17 +847,17 @@
         padding: 23px 0 0 0;
     }
 
-    .box__img-3 {
+    .box__img-three {
         background-position-y: 20px;
         height: 74px;
     }
 
-    .box__img-4 {
+    .box__img-four {
         background-position-x: -2px;
         background-position-y: 4px;
     }
 
-    .box__img-5 {
+    .box__img-five {
         background-position-y: 16px;
     }
 
@@ -879,9 +879,19 @@
         height: 32px;
     }
 
-    .section-3 {
+    .section-three {
         flex-direction: column-reverse;
         height: 1025px;
+    }
+
+    .section__left-background {
+        background: url("img/Car frame group.png") no-repeat;
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .section__left-img {
+        display: none;
     }
 
     .section__left_down {
@@ -897,7 +907,7 @@
         margin: 0 0 36px -15px;
     }
 
-    .box-6 {
+    .box-six {
         display: none;
     }
 
@@ -914,7 +924,7 @@
         padding: 13px 0 0 0;
     }
 
-    .section-3-ipad {
+    .section-three-ipad {
         padding: 0;
     }
 
@@ -975,7 +985,7 @@
         height: 249px;
     }
 
-    .section-1 {
+    .section-one {
         background-size: 426px;
         background-position-x: -19px;
         background-position-y: 110px;
@@ -1007,7 +1017,7 @@
         background-size: 39px;
     }
 
-    .box__img-2 {
+    .box__img-two {
         background-position-x: 39px;
         background-position-y: 32px;
         background-size: 26px;
@@ -1058,16 +1068,16 @@
         margin: 23px 0 0 2px;
     }
 
-    .main__title-2 {
+    .main__title-two {
         display: none;
     }
-    .section__left-1 {
+    .section__left-one {
         background-size: 525px;
         background-position-y: -25px;
         background-position-x: -63px;
     }
 
-    .section__left-1 {
+    .section__left-one {
         height: 303px;
     }
 
@@ -1102,7 +1112,7 @@
         height: 304px;
     }
 
-    .section-2 {
+    .section-two {
         height: 47px;
     }
 
@@ -1124,8 +1134,12 @@
         display: none;
     }
 
-    .top-content-section-3-mobile {
+    .top-content-section-three-mobile {
         padding: 5px 0 0 31px;
     }
 
+    .section__left-background {
+        background: url("img/Car frame group mobile.png") no-repeat;
+        background-position-y: 17px;
+    }
 }
