@@ -640,6 +640,12 @@
 /*********section*********/
 /*Адаптация под экраны*/
 
+@media (max-width: 1120px) {
+    .nav__right, .nav__left {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
 
     html {
@@ -886,8 +892,8 @@
 
     .section__left-background {
         background: url("img/Car frame group.png") no-repeat;
-        width: 100vw;
-        height: 60vh;
+        width: 768px;
+        height: 461px;
     }
 
     .section__left-img {
