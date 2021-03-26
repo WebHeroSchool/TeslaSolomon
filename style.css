@@ -26,10 +26,6 @@
   padding: 0;
 }
 
-.menu__item:last-child {
-  margin-right: 0;
-}
-
 .menu__item {
   text-decoration: none;
   font-family: Montserrat-Bold, Arial, sans-serif;
@@ -43,6 +39,10 @@
   display: inline-block;
   white-space: nowrap;
   transition-duration: 0.25s;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__item_active {
