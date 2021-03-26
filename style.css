@@ -4,7 +4,6 @@
   min-width: 1387px;
 }
 
-
 .header {
   width: 93%;
   margin: 0 0 64px 39px;
@@ -12,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .logo {
@@ -98,12 +96,10 @@
   transform: scaleX(1);
   border-radius: 0 0 100px 100px;
 }
-
 /* скрываем чекбокс */
 #menu__toggle {
   opacity: 0;
 }
-
 /* стилизуем кнопку */
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
@@ -163,13 +159,7 @@
 .menu__item {
   transition-duration: .25s;
 }
-
 /*//////////////Section 1////////////////*/
-
-.main {
-
-}
-
 .section-one {
   display: flex;
   align-items: center;
@@ -201,14 +191,11 @@
   padding: 4px 0 0 0;
 }
 
-
 .main__img {
   padding: 27px 0 0 26px;
   margin: 0;
 }
-
 /*********panel*********/
-
 .panel {
   display: flex;
   margin: 0 0 10px 0;
@@ -279,7 +266,6 @@
   margin: 0;
 }
 
-
 .right-buttons {
   display: flex;
   justify-content: flex-start;
@@ -334,7 +320,6 @@
   color: #fff;
   border: #fff;
 }
-
 /*********panel*********/
 /*********arrow-down*********/
 .arrow-down {
@@ -345,11 +330,8 @@
   transform: rotate(45deg);
   cursor: pointer;
 }
-
 /*********arrow-down*********/
-
 /*********section 2*********/
-
 .section {
   display: flex;
   height: 900px;
@@ -373,14 +355,12 @@
   margin: 0;
 }
 
-
 .section__right {
   width: 440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-
 }
 
 .section__right-one {
@@ -516,13 +496,11 @@
   width: 150px;
   margin: 0;
   padding: 0 0 0 6px;
-
 }
 
 .button__text-i {
   padding: 3px 8px 0 0;
   margin: 0 0 0 -8px;
-
 }
 
 .button__text-i-i:hover {
@@ -532,12 +510,8 @@
   stroke: #e51937;
   border-radius: 50%;
 }
-
 /*********section 2*********/
-
 /*********section - 3 *********/
-
-
 .section__right-one-two {
   margin: 0 -8px 0 0;
 }
@@ -610,7 +584,6 @@
   font-family: Montserrat-Medium, Arial, sans-serif;
   padding: 47px 0 0 0;
   width: 247px;
-
 }
 
 .box__text-additional_color_white_down {
@@ -641,12 +614,9 @@
   background-position-y: 143px;
   position: relative;
 }
-
 /*********section*********/
 /*Адаптация под экраны*/
-
 @media (max-width: 768px) {
-
   .body {
     max-width: 768px;
     min-width: 726px;
@@ -670,13 +640,11 @@
     width: 37px;
   }
 
-
   .section-one {
     background-size: 835px;
     background-position-x: -12px;
     background-position-y: 91px;
     margin-bottom: 24px;
-
   }
 
   .section__redCar {
@@ -706,7 +674,6 @@
   .box {
     padding: 0 0 7px 68px;
   }
-
 
   .box__text {
     font-size: 50px;
@@ -743,7 +710,6 @@
   .button__text {
     font-size: 16px;
     line-height: 20px;
-
   }
 
   .button {
@@ -938,7 +904,6 @@
 }
 
 @media (max-width: 376px) {
-
   .body {
     max-width: 376px;
     min-width: 375px;
