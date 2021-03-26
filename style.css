@@ -346,7 +346,7 @@
 }
 
 .section__left {
-  width: 70%;
+  width: 1000px;
   display: flex;
 }
 
@@ -376,7 +376,7 @@
 }
 
 .top-content {
-  width: 81%;
+  width: 77%;
   font-family: Montserrat-SemiBold, Arial, sans-serif;
   color: #fff;
 }
@@ -390,7 +390,7 @@
 .top-content__description {
   font-family: Montserrat-Medium, Arial, sans-serif;
   font-size: 15px;
-  width: 90%;
+  width: 93%;
   margin: 0;
   padding: 13px 0 0 0;
   font-weight: 500;
@@ -400,7 +400,7 @@
 .options {
   display: flex;
   flex-direction: column;
-  width: 81%;
+  width: 77%;
   height: 338px;
   padding: 0 0 77px 0;
   justify-content: space-evenly;
@@ -502,8 +502,8 @@
 
 .button__i {
   width: 150px;
-  margin: 0;
-  padding: 0 0 0 6px;
+  margin: 0 4px 0 0;
+  padding: 0 0 0 15px;
 }
 
 .button__text-i {
@@ -532,7 +532,7 @@
 }
 
 .marks {
-  width: 340px;
+  width: 327px;
   height: 262px;
   display: flex;
   flex-direction: column;
@@ -603,6 +603,7 @@
 
 .box-six {
   width: 350px;
+  padding-left: 10px;
 }
 
 .down-buttons-two {
@@ -612,8 +613,8 @@
 
 .section__left-img {
   position: absolute;
-  width: 104%;
-  top: 142px;
+  width: 105%;
+  top: 172px;
   left: -87px;
   overflow: hidden;
 }
@@ -804,7 +805,7 @@
   .options {
     display: flex;
     flex-direction: column;
-    width: 39%;
+    width: 38%;
     height: 272px;
     padding: 42px 4px 0 0;
     justify-content: space-around;
@@ -895,7 +896,8 @@
   }
 
   .marks-ipad {
-    padding: 66px 0 0 32px;
+    padding: 66px 0 0 40px;
+    margin-right: -8px;
   }
 
   .top-content__description-ipad {
@@ -1114,5 +1116,4 @@
     background: url("img/Car frame group mobile.png") no-repeat;
     background-position-y: 17px;
   }
-
 }
