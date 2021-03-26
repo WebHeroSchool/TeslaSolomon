@@ -912,6 +912,7 @@
 }
 
 @media (max-width: 376px) {
+
   .body {
     max-width: 376px;
     min-width: 375px;
@@ -1113,4 +1114,5 @@
   .section__left-background {
     background: url("img/Car frame group mobile.png") no-repeat;
     background-position-y: 17px;
-  } }
+  }
+}
