@@ -42,7 +42,7 @@
   position: relative;
   display: inline-block;
   white-space: nowrap;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .menu__item_active {
@@ -75,7 +75,8 @@
   border-radius: 0 0 100px 100px;
 }
 
-.menu__item::before, .menu__item::after {
+.menu__item::before,
+.menu__item::after {
   content: '';
   position: absolute;
   transition: transform 0.5s ease-in-out;
@@ -97,14 +98,18 @@
   transform: scaleX(1);
   border-radius: 0 0 100px 100px;
 }
+
 /* скрываем чекбокс */
+
 #menu__toggle {
   opacity: 0;
 }
+
 /* стилизуем кнопку */
+
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
-  align-items: center; /*центрируем содержимое кнопки*/
+  align-items: center; /* центрируем содержимое кнопки */
   position: relative;
   top: 0;
   right: 0;
@@ -115,6 +120,7 @@
 }
 
 /* добавляем "гамбургер" */
+
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -154,10 +160,11 @@
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
-/*//////////////Section 1////////////////*/
+/* //////////////Section 1//////////////// */
+
 .section-one {
   display: flex;
   align-items: center;
@@ -193,7 +200,9 @@
   padding: 27px 0 0 26px;
   margin: 0;
 }
+
 /* ********panel******** */
+
 .panel {
   display: flex;
   margin: 0 0 10px 0;
@@ -318,8 +327,11 @@
   color: #fff;
   border: #fff;
 }
+
 /* ********panel******** */
+
 /* ********arrow-down******** */
+
 .arrow-down {
   border: solid #e51937;
   border-width: 0 3px 3px 0;
@@ -328,8 +340,11 @@
   transform: rotate(45deg);
   cursor: pointer;
 }
+
 /* ********arrow-down******** */
+
 /* ********section 2******** */
+
 .section {
   display: flex;
   height: 900px;
@@ -508,8 +523,11 @@
   stroke: #e51937;
   border-radius: 50%;
 }
+
 /* ********section 2******** */
+
 /* ********section - 3 ******** */
+
 .section__right-one-two {
   margin: 0 -8px 0 0;
 }
@@ -612,8 +630,11 @@
   background-position-y: 143px;
   position: relative;
 }
+
 /* ********section******** */
-/*Адаптация под экраны*/
+
+/* Адаптация под экраны */
+
 @media (max-width: 768px) {
   .body {
     max-width: 768px;
