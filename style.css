@@ -131,6 +131,7 @@
   height: 2px;
   background-color: #e51937;
   border-radius: 0 0 100px 100px;
+  transition-duration: 0.25s;
 }
 
 .menu__btn > span::before {
@@ -155,12 +156,6 @@
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
-}
-
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  transition-duration: 0.25s;
 }
 
 /* //////////////Section 1//////////////// */
