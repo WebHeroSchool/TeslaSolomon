@@ -324,7 +324,7 @@
 
 .button__text_color_red:hover {
   background-color: #e51937;
-  color: #FFF;
+  color: #fff;
   border: #FFF;
 }
 
@@ -383,7 +383,7 @@
 .top-content {
   width: 81%;
   font-family: Montserrat-SemiBold, Arial, sans-serif;
-  color: #FFF;
+  color: #fff;
 }
 
 .top-content__title {
@@ -425,14 +425,14 @@
 }
 
 .box__text_color_white {
-  color: #FFF;
+  color: #fff;
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
 }
 
 .box__text_middle_color_white {
-  color: #FFF;
+  color: #fff;
   font-family: Montserrat-Medium, Arial, sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -441,7 +441,7 @@
 }
 
 .box__text-additional_color_white {
-  color: #FFF;
+  color: #fff;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
@@ -477,7 +477,7 @@
   align-items: center;
   width: 400px;
   height: 115px;
-  color: #FFF;
+  color: #fff;
   padding: 0 0 26px 0;
 }
 
@@ -485,7 +485,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFF;
+  color: #fff;
   transition: color 0.7s;
 }
 
@@ -493,7 +493,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFF;
+  color: #fff;
   width: 160px;
   height: 40px;
   border: 2px solid #FFF;
@@ -545,7 +545,7 @@
 
 .top-content__title-marks {
   font-family: Montserrat-SemiBold, Arial, sans-serif;
-  color: #FFF;
+  color: #fff;
   padding: 0;
   margin: -4px 0 23px 0;
 }
@@ -557,7 +557,7 @@
 
 .marks__description {
   font-family: Montserrat-SemiBold, Arial, sans-serif;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   padding: 4px 0 3px 3px;
   font-size: 17px;
@@ -749,7 +749,7 @@
 
   .button__text_color_red {
     background-color: #e51937;
-    color: #FFF;
+    color: #fff;
     width: 221px;
     height: 56px;
     border: none;
