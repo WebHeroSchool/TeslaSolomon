@@ -324,8 +324,8 @@
 
 .button__text_color_red:hover {
   background-color: #e51937;
-  color: #fff;
-  border: #fff;
+  color: #FFF;
+  border: #FFF;
 }
 
 /* ********panel******** */
@@ -425,14 +425,14 @@
 }
 
 .box__text_color_white {
-  color: #fff;
+  color: #FFF;
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
 }
 
 .box__text_middle_color_white {
-  color: #fff;
+  color: #FFF;
   font-family: Montserrat-Medium, Arial, sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -441,7 +441,7 @@
 }
 
 .box__text-additional_color_white {
-  color: #fff;
+  color: #FFF;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
@@ -477,7 +477,7 @@
   align-items: center;
   width: 400px;
   height: 115px;
-  color: #fff;
+  color: #FFF;
   padding: 0 0 26px 0;
 }
 
@@ -485,7 +485,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #FFF;
   transition: color 0.7s;
 }
 
@@ -493,15 +493,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #FFF;
   width: 160px;
   height: 40px;
-  border: 2px solid #fff;
+  border: 2px solid #FFF;
   transition: background-color, border-spacing, color 0.7s;
 }
 
 .button__text_color_white:hover {
-  background: #fff;
+  background: #FFF;
   color: #e51937;
 }
 
@@ -749,7 +749,7 @@
 
   .button__text_color_red {
     background-color: #e51937;
-    color: #fff;
+    color: #FFF;
     width: 221px;
     height: 56px;
     border: none;
@@ -813,10 +813,6 @@
     height: 272px;
     padding: 42px 4px 0 0;
     justify-content: space-around;
-  }
-
-  .box {
-    padding: 0 0 7px 68px;
   }
 
   .box-one {
@@ -987,7 +983,7 @@
 
   .box__text {
     font-size: 27px;
-    line-height: 33px;
+    line-height: 24px;
   }
 
   .box__text-additional {
@@ -1021,10 +1017,6 @@
     font-size: 15px;
   }
 
-  .box__text {
-    line-height: 24px;
-  }
-
   .left-container {
     margin: -11px 0 0 22px;
     padding-left: 4px;
@@ -1042,6 +1034,7 @@
   .button__img {
     width: 34px;
     height: 22px;
+    margin-right: 0;
   }
 
   .button__text_color_red {
@@ -1052,10 +1045,6 @@
   .box__text_color_black {
     width: 91px;
     margin-right: 24px;
-  }
-
-  .button__img {
-    margin-right: 0;
   }
 
   .arrow-down {
@@ -1130,4 +1119,5 @@
     background: url("img/Car frame group mobile.png") no-repeat;
     background-position-y: 17px;
   }
+
 }
