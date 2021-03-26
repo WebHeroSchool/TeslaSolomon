@@ -320,7 +320,7 @@
 .button__text_color_red:hover {
   background-color: #e51937;
   color: #fff;
-  border: #FFF;
+  border: #fff;
 }
 
 /* ********panel******** */
@@ -491,12 +491,12 @@
   color: #fff;
   width: 160px;
   height: 40px;
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
   transition: background-color, border-spacing, color 0.7s;
 }
 
 .button__text_color_white:hover {
-  background: #FFF;
+  background: #fff;
   color: #e51937;
 }
 
@@ -1113,4 +1113,5 @@
   .section__left-background {
     background: url("img/Car frame group mobile.png") no-repeat;
     background-position-y: 17px;
-  }}
+  }
+}
