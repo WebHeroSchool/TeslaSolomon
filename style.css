@@ -637,6 +637,55 @@
 
 /* Адаптация под экраны */
 
+@media (max-width: 1150px) and (min-width: 769px) {
+
+  .top-content__title {
+    padding: 0;
+  }
+
+  .options {
+    padding: 0;
+  }
+
+  .down-buttons {
+    padding: 0;
+  }
+
+  .section {
+    display: flex;
+    height: 62.5vw;
+  }
+
+  .section__left-one {
+    background-size: 88vw;
+    background-position-y: 59px;
+  }
+
+  .section__left_down {
+    background-size: 79%;
+  }
+
+  .section__redCar {
+    background-size: 80%;
+  }
+
+  .box-six {
+    display: none;
+  }
+
+  .top-content {
+    width: 86%;
+  }
+
+  .top-content__description {
+    width: 105%;
+  }
+
+  .main__title-two {
+    padding: 10% 10%;
+  }
+}
+
 @media (max-width: 768px) {
   .body {
     max-width: 768px;
