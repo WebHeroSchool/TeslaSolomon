@@ -1,7 +1,6 @@
 .body {
   margin: 0 auto;
   max-width: 1440px;
-  min-width: 1387px;
 }
 
 .header {
@@ -24,6 +23,12 @@
 
 .nav__right {
   padding: 0;
+}
+
+@media (max-width: 1339px) {
+    .nav__left, .nav__right {
+        display: none;
+    }
 }
 
 .menu__item {
@@ -166,6 +171,7 @@
   flex-direction: column;
   background: url("img/tesla.svg") no-repeat;
   margin-bottom: 24px;
+  background-size: contain;
 }
 
 .section__redCar {
@@ -201,7 +207,7 @@
 .panel {
   display: flex;
   margin: 0 0 10px 0;
-  width: 90%;
+  width: 63%;
   justify-content: space-between;
   align-items: center;
   padding: 31px 0 0 0;
@@ -212,8 +218,7 @@
   justify-content: space-evenly;
   align-items: center;
   width: 50%;
-  margin-right: 0;
-  padding-left: 161px;
+  margin-right: 81px;
 }
 
 .box {
@@ -221,6 +226,7 @@
   align-items: center;
   width: 268px;
   height: 56px;
+  margin-right: 45px;
 }
 
 .box__img {
@@ -603,7 +609,7 @@
 
 .box-six {
   width: 350px;
-  padding-left: 10px;
+  padding-left: 57px;
 }
 
 .down-buttons-two {
@@ -621,9 +627,9 @@
 
 .section__left_down {
   background: url("img/Model S.svg") no-repeat;
-  background-size: 796px;
-  background-position-x: 212px;
-  background-position-y: 143px;
+  background-size: 55vw;
+  background-position-x: 104%;
+  background-position-y: 19%;
   position: relative;
 }
 
@@ -634,7 +640,7 @@
 @media (max-width: 768px) {
   .body {
     max-width: 768px;
-    min-width: 726px;
+    min-width: 735px;
   }
 
   html {
@@ -647,6 +653,10 @@
     width: 94%;
   }
 
+  .logo {
+    margin-right: 0;
+  }
+
   .nav__right,
   .nav__left {
     display: none;
@@ -657,16 +667,16 @@
   }
 
   .section-one {
-    background-size: 835px;
+    background-size: 108%;
     background-position-x: -12px;
     background-position-y: 91px;
     margin-bottom: 24px;
   }
 
   .section__redCar {
-    width: 100%;
-    background-size: 700px;
-    background-position-x: 34px;
+    width: 91%;
+    background-size: contain;
+    background-position-x: 1px;
     background-position-y: 61px;
   }
 
@@ -675,7 +685,7 @@
     width: 70%;
     flex-direction: column;
     align-items: center;
-    padding: 0 216px 0 0;
+    padding: 0 28% 0 0;
   }
 
   .left-container {
@@ -683,12 +693,12 @@
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin: -11px 0 0 65px;
+    margin: -11px 0 0 30%;
     padding-left: 0;
   }
 
   .box {
-    padding: 0 0 7px 68px;
+    padding: 0 0 7px 4%;
   }
 
   .box__text {
@@ -813,6 +823,15 @@
 
   .box-one {
     margin-bottom: 0;
+    padding: 0 0 7px 24%;
+  }
+
+  .box-two {
+    padding: 0 0 7px 24%;
+  }
+
+  .box-three {
+    padding: 0 0 7px 24%;
   }
 
   .down-buttons {
@@ -913,10 +932,176 @@
   }
 }
 
+@media (max-width: 735px) {
+  .body {
+    max-width: 735px;
+    min-width: 377px;
+  }
+
+  html {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .header {
+    margin: 0 0 86px 11px;
+    width: 94%;
+  }
+
+  .panel {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 54%;
+    height: 171px;
+  }
+
+  .box__text_middle {
+    font-size: 15px;
+  }
+
+  .left-container {
+    width: 93%;
+    margin: 0;
+  }
+
+  .right-buttons {
+    margin: 0;
+    width: auto;
+  }
+
+  .arrow-down {
+    margin: 23px 0 0 2px;
+  }
+
+  .main__title-two {
+    display: none;
+  }
+
+  .options {
+    display: none;
+  }
+
+  .section__right {
+    height: 492px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-two {
+    height: 47px;
+  }
+
+  .section__left-img {
+    width: 361px;
+    height: 204px;
+    margin: 17px 0 0 -2px;
+  }
+
+  .section__left_down {
+    background-size: 87%;
+    background-position-x: 100%;
+    background-position-y: 7px;
+    height: 498px;
+    width: 100%;
+  }
+
+  .marks {
+    display: none;
+  }
+
+  .section-three-ipad {
+    padding: 0;
+    align-items: center;
+    height: 1842px;
+  }
+
+  .top-content {
+    width: 95%;
+    padding: 51px 0;
+  }
+
+  .down-buttons {
+    padding: 51px 0;
+    margin: 0;
+    width: 63%;
+    height: auto;
+  }
+
+  .button__i {
+    width: 185px;
+    margin-right: 10px;
+  }
+
+  .top-content__description {
+    padding: 23px 0 0 15px;
+  }
+
+  .top-content__title {
+    padding: 0;
+  }
+
+  .section__left-background {
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    height: 461px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .header {
+    margin: 0;
+  }
+
+  .box {
+    margin-right: 0;
+  }
+
+  .section__redCar {
+    height: 320px;
+  }
+
+  .box__img {
+    width: 0;
+  }
+
+  .section__left-one {
+    height: 383px;
+    background-size: 519px;
+  }
+
+  .section-three-ipad {
+    height: 1628px;
+  }
+
+  .section__left_down {
+    height: 425px;
+  }
+
+  .button__text_color_red {
+    width: 171px;
+  }
+
+  .button__text_color_white {
+    padding: 5px 2px;
+  }
+
+  .button__i {
+    margin-right: 8px;
+  }
+}
+
 @media (max-width: 376px) {
   .body {
     max-width: 376px;
-    min-width: 375px;
+    min-width: 320px;
   }
 
   html {
@@ -931,6 +1116,7 @@
 
   .menu__btn {
     top: 2px;
+    width: 23px;
   }
 
   .menu__btn > span::before {
@@ -966,14 +1152,15 @@
   }
 
   .section__redCar {
-    background-size: 357px;
-    background-position-x: 9px;
+    background-size: contain;
+    background-position-x: 0;
     background-position-y: 51px;
     height: 249px;
+    width: 94%;
   }
 
   .section-one {
-    background-size: 426px;
+    background-size: 114%;
     background-position-x: -19px;
     background-position-y: 110px;
   }
@@ -1002,6 +1189,7 @@
     background-position-x: 109px;
     background-position-y: 16px;
     background-size: 39px;
+    width: 160px;
   }
 
   .box__img-two {
@@ -1015,12 +1203,12 @@
   }
 
   .left-container {
-    margin: -11px 0 0 22px;
+    margin: -11px 0 0 10%;
     padding-left: 4px;
   }
 
   .right-buttons {
-    margin: 37px 0 0 102px;
+    margin: 37px 0 0 30%;
   }
 
   .button__text {
@@ -1045,7 +1233,7 @@
   }
 
   .arrow-down {
-    margin: 23px 0 0 2px;
+    margin: -27px 0 0 2px;
   }
 
   .main__title-two {
@@ -1064,17 +1252,20 @@
   }
 
   .top-content {
-    padding: 3px 0 0 27px;
+    width: 86%;
+    padding: 3px 0 0 0;
   }
 
   .top-content__title {
     padding-top: 15px;
-    width: 323px;
+    width: 101%;
+    font-size: 8vw;
   }
 
   .top-content__description {
     font-family: Montserrat-Medium, Arial, sans-serif;
-    width: 314px;
+    font-size: 4vw;
+    width: 100%;
     padding: 11px 0 0 1px;
   }
 
@@ -1083,7 +1274,9 @@
   }
 
   .section__right {
-    height: 304px;
+    text-align: start;
+    padding-bottom: 41px;
+    height: 263px;
   }
 
   .section-two {
@@ -1097,11 +1290,10 @@
   }
 
   .section__left_down {
-    background-size: 399px;
+    background-size: 106%;
     background-position-x: 0;
     background-position-y: 7px;
     height: 253px;
-    width: 375px;
   }
 
   .marks {
@@ -1109,11 +1301,23 @@
   }
 
   .top-content-section-three-mobile {
-    padding: 5px 0 0 31px;
+    padding: 5px 0 0 0;
+    height: 300px;
+    width: 84%;
+  }
+
+  .section__right-one-two {
+    margin: 0;
+  }
+
+  .section-three-ipad {
+    height: 1026px;
   }
 
   .section__left-background {
     background: url("img/Car frame group mobile.png") no-repeat;
     background-position-y: 17px;
+    background-size: contain;
+    width: 96%;
   }
 }
