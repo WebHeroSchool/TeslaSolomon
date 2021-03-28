@@ -667,6 +667,7 @@
 
   .section__redCar {
     background-size: 80%;
+    height: 37vw;
   }
 
   .box-six {
@@ -724,6 +725,7 @@
 
   .section__redCar {
     width: 91%;
+    height: 58vw;
     background-size: contain;
     background-position-x: 1px;
     background-position-y: 61px;
@@ -1035,7 +1037,7 @@
   }
 
   .section__right {
-    height: 492px;
+    height: 350px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -1044,6 +1046,7 @@
 
   .section-two {
     height: 47px;
+    margin-bottom: 202px;
   }
 
   .section__left-img {
@@ -1067,16 +1070,16 @@
   .section-three-ipad {
     padding: 0;
     align-items: center;
-    height: 1842px;
+    height: 1492px;
   }
 
   .top-content {
     width: 95%;
-    padding: 51px 0;
+    padding: 0;
   }
 
   .down-buttons {
-    padding: 51px 0;
+    padding: 29px 0;
     margin: 0;
     width: 63%;
     height: auto;
@@ -1092,7 +1095,7 @@
   }
 
   .top-content__title {
-    padding: 0;
+    padding: 21px 0 0 0;
   }
 
   .section__left-background {
@@ -1127,7 +1130,7 @@
   }
 
   .section-three-ipad {
-    height: 1628px;
+    height: 1284px;
   }
 
   .section__left_down {
@@ -1311,6 +1314,10 @@
     font-size: 8vw;
   }
 
+  .top-content__title-ipad {
+    padding-top: 0;
+  }
+
   .top-content__description {
     font-family: Montserrat-Medium, Arial, sans-serif;
     font-size: 4vw;
@@ -1325,7 +1332,7 @@
   .section__right {
     text-align: start;
     padding-bottom: 41px;
-    height: 263px;
+    height: 331px;
   }
 
   .section-two {
@@ -1360,7 +1367,7 @@
   }
 
   .section-three-ipad {
-    height: 1026px;
+    height: 1024px;
   }
 
   .section__left-background {
