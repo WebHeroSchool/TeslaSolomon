@@ -26,9 +26,10 @@
 }
 
 @media (max-width: 1339px) {
-    .nav__left, .nav__right {
-        display: none;
-    }
+  .nav__left,
+  .nav__right {
+      display: none;
+  }
 }
 
 .menu__item {
@@ -627,10 +628,14 @@
 
 .section__left_down {
   background: url("img/Model S.svg") no-repeat;
-  background-size: 55vw;
   background-position-x: 104%;
   background-position-y: 19%;
   position: relative;
+}
+@media (max-width: 1440px) {
+  .section__left_down {
+    background-size: 55vw;
+  }
 }
 
 /* ********section******** */
@@ -638,7 +643,6 @@
 /* Адаптация под экраны */
 
 @media (max-width: 1150px) and (min-width: 769px) {
-
   .top-content__title {
     padding: 0;
   }
@@ -676,6 +680,7 @@
 
   .top-content {
     width: 86%;
+    padding-top: 5%;
   }
 
   .top-content__description {
@@ -1107,7 +1112,6 @@
 }
 
 @media (max-width: 500px) {
-
   .header {
     margin: 0;
   }
